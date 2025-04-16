@@ -1,0 +1,152 @@
+
+/* header start*/
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: rgb(10, 1, 49);
+    z-index: 100;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.container {
+    background: rgb(10, 1, 49);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar {
+    justify-content: space-between;
+
+}
+.navbar a {
+    padding: 10px 18px;
+    transition: 0.3s;
+    border-radius: 18px;
+    display: inline-block;
+    color: orange;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: orange ;
+}
+.nav-link {
+    gap: 20px;
+    list-style: none;
+    font-family: 'Gill Sans', sans-serif;
+    
+}
+.logo {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* header end */
+
+.homepage {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+}
+.homepage .content {
+   
+    height: 85%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.homepage .texte {
+    text-align: center;
+}
+.homepage .texte h1 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 100px;
+    background:  rgb(58, 56, 138);
+    width: 100000px;
+    color: #fff;
+    
+    text-align: center;
+
+}
+.homepage .texte p {
+    font-size: 25px;
+    font-weight: 700;
+}
+.boutum {
+    justify-content: center;
+    justify-items: center;
+
+}
+.boutum a {
+    padding: 10px 18px;
+    transition: 0.3s;
+    border-radius: 15px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(10, 1, 49) ;
+
+}
+.boutum a:hover {
+    color: #fff;
+    background-color: orange ;
+}
+
+.clic {
+    gap: 60px;
+    list-style: none;
+    padding-top: 50px;
+
+}
+.boutum .clic {
+    font-size: 30px;
+    font-weight: 700;
+}
+footer {
+    position: fixed;
+    top: 90%;
+    height: 100%;
+    width: 100%;
+    background: rgb(10, 1, 49)  ;
+    z-index: 100;
+}
+.foot {
+    background: rgb(10, 1, 49);
+    max-height: 12000px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 25ssspx;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Battipaglia';
+    src: url('Battipaglia.ttf') format('truetype');
+}
+.portfolio {
+    font-family: 'Battipaglia' ;
+    color: orange;
+    font-size: 30px;
+    margin-top: ;
+    font-weight: 100;
+    
+}
+.texte h1 {
+   padding: 20px 0;
+    
+}

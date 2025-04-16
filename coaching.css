@@ -1,0 +1,49 @@
+.congratulation {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.message li {
+    list-style: none;
+}
+.submit {
+    padding: 10px 18px;
+    background: rgb(10, 1, 49) ;
+    border: 5px;
+    border-radius: 5px;
+    border-color: rgb(22, 20, 15);
+    color: #fff;
+    transition: 0.2s;
+}
+.submit:hover {
+    color: #fff;
+    background: orange;
+}
+.champ {
+    
+    flex-direction: column;
+    gap: 20px;
+}
+.formulaire{
+    margin: 0 auto;
+    padding: 20px;
+   text-align: center;
+   width: 30%;
+    background-color:rgb(190, 190, 243);
+    height: 60%;
+   
+    
+}
+.envoyer{
+    text-align: left;
+    width: 100%;
+    font-size: 40px;
+    
+}
